@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A65C1732230343400C0676D /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65C1722230343400C0676D /* NetworkModel.swift */; };
+		0A65C175223034E900C0676D /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65C174223034E900C0676D /* LocationModel.swift */; };
+		0AD9B672222C20CE00353A83 /* CityBikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9B671222C20CE00353A83 /* CityBikeViewController.swift */; };
 		0AEA5F2B222B166E00DCACB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F2A222B166E00DCACB5 /* AppDelegate.swift */; };
 		0AEA5F2D222B166E00DCACB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F2C222B166E00DCACB5 /* ViewController.swift */; };
 		0AEA5F30222B166E00DCACB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA5F2E222B166E00DCACB5 /* Main.storyboard */; };
@@ -23,6 +26,7 @@
 		0AEA5F6C222BF59100DCACB5 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F6B222BF59100DCACB5 /* ResponseModel.swift */; };
 		0AEA5F6E222BF68A00DCACB5 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F6D222BF68A00DCACB5 /* AlertModel.swift */; };
 		0AEA5F70222C171B00DCACB5 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F6F222C171B00DCACB5 /* ForgetPasswordViewController.swift */; };
+		0AEA5F74222C1EBB00DCACB5 /* Citybikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA5F73222C1EBB00DCACB5 /* Citybikes.swift */; };
 		65798C4CE4C898E95116A1A2 /* Pods_BisBis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532C04F5F770E1EF2C5D668C /* Pods_BisBis.framework */; };
 		7B54091FBF77C57452EE0662 /* Pods_BisBisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB555831E029EF570F24B97 /* Pods_BisBisTests.framework */; };
 		839BB3C230D83E56240E520D /* Pods_BisBisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440EE7D0BB5B378ACDFD8E6 /* Pods_BisBisUITests.framework */; };
@@ -47,6 +51,9 @@
 
 /* Begin PBXFileReference section */
 		0440EE7D0BB5B378ACDFD8E6 /* Pods_BisBisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BisBisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A65C1722230343400C0676D /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		0A65C174223034E900C0676D /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		0AD9B671222C20CE00353A83 /* CityBikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBikeViewController.swift; sourceTree = "<group>"; };
 		0AEA5F27222B166E00DCACB5 /* BisBis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BisBis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEA5F2A222B166E00DCACB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AEA5F2C222B166E00DCACB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +76,7 @@
 		0AEA5F6B222BF59100DCACB5 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		0AEA5F6D222BF68A00DCACB5 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
 		0AEA5F6F222C171B00DCACB5 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		0AEA5F73222C1EBB00DCACB5 /* Citybikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citybikes.swift; sourceTree = "<group>"; };
 		3A80B8040AE3DE71519AB036 /* Pods-BisBisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisBisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BisBisTests/Pods-BisBisTests.release.xcconfig"; sourceTree = "<group>"; };
 		489228BC1EFB974DE4094AF6 /* Pods-BisBis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisBis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BisBis/Pods-BisBis.debug.xcconfig"; sourceTree = "<group>"; };
 		4F6C419EE3D52C8A0002972F /* Pods-BisBisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisBisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BisBisUITests/Pods-BisBisUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +140,7 @@
 		0AEA5F29222B166E00DCACB5 /* BisBis */ = {
 			isa = PBXGroup;
 			children = (
-				0AEA5F64222BE93D00DCACB5 /* Firebase */,
+				0AEA5F71222C1E4500DCACB5 /* Services */,
 				0AEA5F5B222B1FC500DCACB5 /* Helper */,
 				0AEA5F5A222B1FB600DCACB5 /* Controller */,
 				0AEA5F59222B1B3500DCACB5 /* View */,
@@ -172,6 +180,8 @@
 				0AEA5F62222BC3BF00DCACB5 /* UserModel.swift */,
 				0AEA5F6B222BF59100DCACB5 /* ResponseModel.swift */,
 				0AEA5F6D222BF68A00DCACB5 /* AlertModel.swift */,
+				0A65C1722230343400C0676D /* NetworkModel.swift */,
+				0A65C174223034E900C0676D /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +199,7 @@
 				0AEA5F5E222B2F8300DCACB5 /* SignupViewController.swift */,
 				0AEA5F60222B31D800DCACB5 /* LoginViewController.swift */,
 				0AEA5F6F222C171B00DCACB5 /* ForgetPasswordViewController.swift */,
+				0AD9B671222C20CE00353A83 /* CityBikeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +218,23 @@
 				0AEA5F65222BE97500DCACB5 /* FirebaseAuth.swift */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0AEA5F71222C1E4500DCACB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA5F72222C1E6A00DCACB5 /* CityBikes */,
+				0AEA5F64222BE93D00DCACB5 /* Firebase */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0AEA5F72222C1E6A00DCACB5 /* CityBikes */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA5F73222C1EBB00DCACB5 /* Citybikes.swift */,
+			);
+			path = CityBikes;
 			sourceTree = "<group>";
 		};
 		56C2E806CD917E6DA016001D /* Pods */ = {
@@ -371,14 +399,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BisBis/Pods-BisBis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,9 +483,13 @@
 			files = (
 				0AEA5F6E222BF68A00DCACB5 /* AlertModel.swift in Sources */,
 				0AEA5F66222BE97500DCACB5 /* FirebaseAuth.swift in Sources */,
+				0AD9B672222C20CE00353A83 /* CityBikeViewController.swift in Sources */,
+				0A65C1732230343400C0676D /* NetworkModel.swift in Sources */,
 				0AEA5F70222C171B00DCACB5 /* ForgetPasswordViewController.swift in Sources */,
 				0AEA5F61222B31D800DCACB5 /* LoginViewController.swift in Sources */,
+				0A65C175223034E900C0676D /* LocationModel.swift in Sources */,
 				0AEA5F5F222B2F8300DCACB5 /* SignupViewController.swift in Sources */,
+				0AEA5F74222C1EBB00DCACB5 /* Citybikes.swift in Sources */,
 				0AEA5F2D222B166E00DCACB5 /* ViewController.swift in Sources */,
 				0AEA5F63222BC3BF00DCACB5 /* UserModel.swift in Sources */,
 				0AEA5F2B222B166E00DCACB5 /* AppDelegate.swift in Sources */,

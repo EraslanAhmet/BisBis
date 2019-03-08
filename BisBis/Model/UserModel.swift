@@ -6,8 +6,6 @@
 //  Copyright © 2019 Yakup Ad. All rights reserved.
 //
 
-import Foundation
-
 class User: Codable {
     var Id: String
     var Email: String
