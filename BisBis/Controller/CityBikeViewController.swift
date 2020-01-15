@@ -13,7 +13,7 @@ class CityBikeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Citybikes().GetNetworks();
+        Citybikes().GetNetworks()
     }
     
 
