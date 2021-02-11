@@ -17,7 +17,7 @@ class Citybikes {
         var parsedResponse = [Network]()
         Alamofire.request(baseURL, method: .get, encoding: URLEncoding.default)
             .responseSwiftyJSON { dataResponse in
-                let json = (dataResponse.value!)["networks"];
+                let json = (dataResponse.value!)["networks"]
                 
                 json.map {data in
                     let jsonNetwork = data.1.dictionaryObject!
